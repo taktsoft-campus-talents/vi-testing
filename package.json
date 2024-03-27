@@ -1,0 +1,22 @@
+{
+  "name": "unit-testing-with-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "test": "vitest run",
+    "test:watch": "vitest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.4.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
